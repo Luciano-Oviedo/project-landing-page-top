@@ -20,3 +20,16 @@ footer {
     background-color: rgb(37, 43, 58);
     flex: 1 0 auto;
 }
+
+.information {
+    height: 40%;
+}
+
+.quotes {
+    height: 33%;
+    background-color: rgb(228, 230, 235);
+}
+
+.cat-banner {
+    height: 27%;
+}
