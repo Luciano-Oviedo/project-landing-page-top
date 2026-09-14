@@ -15,12 +15,16 @@ header, .hero-section, footer {
 }
 
 header {
-    flex: 3 0 auto;
+    flex: 0 0 auto;
 }
 
 header p {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.hero-section {
+    flex: 1 0 auto;
 }
 
 .hero-main-text {
@@ -35,7 +39,7 @@ header p {
 }
 
 main {
-    flex: 7 0 auto;
+    flex: 4 0 auto;
 }
 
 footer {
