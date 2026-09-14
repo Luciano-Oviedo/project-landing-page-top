@@ -16,11 +16,24 @@ header, .hero-section, footer {
 
 header {
     flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 header p {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 1em;
+}
+
+.header-links {
+    display: flex;
+    gap: 1em;
+}
+
+.header-links a {
+    text-decoration: none;
 }
 
 .hero-section {
@@ -33,7 +46,7 @@ header p {
     color: #F9FAF8;
 }
 
-.hero-secondary-text {
+.hero-secondary-text, .header-links a {
     font-size: 18px;
     color:  #E5E7EB;
 }
