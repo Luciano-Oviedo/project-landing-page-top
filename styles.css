@@ -17,9 +17,14 @@ header, .hero-section, footer {
 header {
     flex: 0 0 auto;
     display: flex;
+    justify-content: center;
+}
+
+.header-flex-container {
+    width: 80%;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-inline: 1em;
+    justify-content: space-between;
 }
 
 header p {
@@ -39,17 +44,22 @@ header p {
 .hero-section {
     flex: 1 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-inline: 1em;
+    justify-content: center;
 }
 
-.hero-section-text {
+.hero-section-flex-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*.hero-section-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .hero-main-text {
     font-size: 48px;
