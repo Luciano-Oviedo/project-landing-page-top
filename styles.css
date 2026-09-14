@@ -19,12 +19,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-inline: 1em;
 }
 
 header p {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 1em;
 }
 
 .header-links {
@@ -38,6 +38,17 @@ header p {
 
 .hero-section {
     flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 1em;
+}
+
+.hero-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-main-text {
