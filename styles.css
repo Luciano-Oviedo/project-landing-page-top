@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+p {
+    margin: 0;
+}
+
 header, .hero-section, footer {
     background-color: #1F2937;
 }
@@ -30,11 +34,12 @@ header {
 header p {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 .header-links {
     display: flex;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .header-links a {
@@ -52,14 +57,15 @@ header p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
 }
 
-/*.hero-section-text {
+.hero-section-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}*/
+    align-items: flex-start;
+}
 
 .hero-main-text {
     font-size: 48px;
@@ -70,6 +76,24 @@ header p {
 .hero-secondary-text, .header-links a {
     font-size: 18px;
     color:  #E5E7EB;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 8px;
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+button, .cta-banner {
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.hero-section button {
+    font-size: 18px;
+    border-style: none;
+    margin-top: 1rem;
 }
 
 main {
@@ -85,8 +109,7 @@ footer {
 }
 
 footer p {
-    margin: 0;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .information {
@@ -98,6 +121,6 @@ footer p {
     background-color: rgb(228, 230, 235);
 }
 
-.cat-banner {
+.cta-banner {
     height: 27%;
 }
