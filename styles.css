@@ -66,6 +66,13 @@ header p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    flex: 1;
+}
+
+.hero-section img {
+    display: flex;
+    background-color: #E5E7EB;
+    flex: 1;
 }
 
 .hero-main-text {
@@ -101,6 +108,58 @@ main {
     flex: 4 0 auto;
 }
 
+.information {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 1rem;
+}
+
+.information .info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards-section {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    gap: 2rem;
+    flex: 1;
+}
+
+.info-card {
+    width: 15%;
+    min-width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info-card img {
+    border: solid #3882F6 2px;
+    border-radius: 10%;
+    flex: auto;
+}
+
+.info-card p {
+    text-align: center;
+}
+
+.quotes {
+    height: 33%;
+    background-color: rgb(228, 230, 235);
+}
+
+.cta-banner {
+    height: 27%;
+}
+
 footer {
     color: white;
     flex: 0 0 auto;
@@ -111,17 +170,4 @@ footer {
 
 footer p {
     padding: 1rem;
-}
-
-.information {
-    height: 40%;
-}
-
-.quotes {
-    height: 33%;
-    background-color: rgb(228, 230, 235);
-}
-
-.cta-banner {
-    height: 27%;
 }
