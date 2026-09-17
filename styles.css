@@ -157,7 +157,11 @@ main {
 
 .quotes-section {
     flex: 1 1 auto;
-    background-color: rgb(228, 230, 235);
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+    font-style: italic;
 }
 
 .quote {
@@ -169,11 +173,19 @@ main {
 
 .cite {
     text-align: end;
+    font-style: normal;
     margin-right: 2rem;
 }
 
-.cta-banner {
+.cta-banner-section {
     flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-banner {
+    width: 75%;
 }
 
 footer {
