@@ -93,8 +93,6 @@ header p {
 button {
     font-weight: bold;
     border-radius: 8px;
-    padding-block: 10px;
-    padding-inline: 20px;
 }
 
 button, .cta-banner {
@@ -106,6 +104,8 @@ button, .cta-banner {
     font-size: 18px;
     border-style: none;
     margin-top: 1rem;
+    padding-block: 10px;
+    padding-inline: 20px;
 }
 
 main {
