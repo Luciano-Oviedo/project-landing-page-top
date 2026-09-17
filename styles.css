@@ -155,9 +155,21 @@ main {
     text-align: center;
 }
 
-.quotes {
+.quotes-section {
     flex: 1 1 auto;
     background-color: rgb(228, 230, 235);
+}
+
+.quote {
+    width: 50%;
+    padding-block: 3rem;
+    padding-inline: 0;
+    margin: auto;
+}
+
+.cite {
+    text-align: end;
+    margin-right: 2rem;
 }
 
 .cta-banner {
