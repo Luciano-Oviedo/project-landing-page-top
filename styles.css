@@ -92,12 +92,12 @@ header p {
 
 button {
     font-weight: bold;
-    border-radius: 8px;
 }
 
 button, .cta-banner {
     color: #F9FAF8;
     background-color: #3882F6;
+     border-radius: 8px;
 }
 
 .hero-section button {
@@ -186,6 +186,25 @@ main {
 
 .cta-banner {
     width: 75%;
+    margin-block: 3rem;
+    padding-block: 1.5rem;
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cta-banner-text .heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta-banner button {
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: solid #F9FAF8 1px;
+    text-wrap: nowrap;
 }
 
 footer {
