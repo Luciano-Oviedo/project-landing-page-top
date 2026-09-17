@@ -19,7 +19,7 @@ header, .hero-section, footer {
 }
 
 header {
-    flex: 0 0 auto;
+    flex: 1;
     display: flex;
     justify-content: center;
 }
@@ -48,7 +48,7 @@ header p {
 }
 
 .hero-section {
-    flex: 1 0 auto;
+    flex: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ header p {
 
 .hero-section-flex-container {
     width: 80%;
-    height: 60%;
+    height: 65%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,11 +109,11 @@ button, .cta-banner {
 }
 
 main {
-    flex: 4 0 auto;
+    flex: 9;
 }
 
 .information {
-    height: 40%;
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,7 +138,7 @@ main {
 .info-card {
     width: 15%;
     min-width: 150px;
-    height: 100%;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,17 +156,17 @@ main {
 }
 
 .quotes {
-    height: 33%;
+    flex: 1 1 auto;
     background-color: rgb(228, 230, 235);
 }
 
 .cta-banner {
-    height: 27%;
+    flex: 1 1 auto;
 }
 
 footer {
     color: white;
-    flex: 0 0 auto;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
