@@ -61,6 +61,7 @@ header p {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    margin-block: 2rem;
 }
 
 .hero-section-text {
@@ -68,14 +69,13 @@ header p {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    flex: 1;
-    height: 100%;
+    flex: auto;
 }
 
 .hero-section img {
     display: flex;
     background-color: #E5E7EB;
-    flex: 1;
+    flex: auto;
     height: 100%;
 }
 
